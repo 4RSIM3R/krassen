@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Krassen"
-  tagline: Catatan Troubleshoot Instalasi Dan Operational SIMGOS
+  tagline: Catatan Troubleshoot Instalasi, Upgrade Dan Operational SIMGOS
   actions:
     - theme: brand
       text: Dokumentasi Official
