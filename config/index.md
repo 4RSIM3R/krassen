@@ -1,27 +1,25 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
   name: "Krassen"
-  text: "Catatan Troubleshoot SIMGOS"
   tagline: Catatan Troubleshoot Instalasi Dan Operational SIMGOS
-  # actions:
-  #   - theme: brand
-  #     text: Markdown Examples
-  #     link: /markdown-examples
-  #   - theme: alt
-  #     text: API Examples
-  #     link: /api-examples
+  actions:
+    - theme: brand
+      text: Dokumentasi Official
+      link: https://docs.simgos2.simpel.web.id/
+    - theme: alt
+      text: Ikut Menulis Catatan
+      link: /api-examples
 
 features:
   - title: Instalasi
-    details: Pengantar Dan Troubleshoot Proses Instalasi
+    details: Catatan Dan Troubleshoot Proses Instalasi
   - title: Upgrade
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Catatan Dan Troubleshoot Proses Upgrade
   - title: Operasional
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Catatan Dan Troubleshoot Operasional
   - title: Catatan Lain
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Catatan Lain Pendukung SIMGOS
 ---
 
