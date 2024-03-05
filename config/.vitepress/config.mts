@@ -8,10 +8,10 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Beranda', link: '/' },
-      { text: 'Instalasi', link: '/markdown-examples' },
-      { text: 'Upgrade', link: '/markdown-examples' },
-      { text: 'Operasional', link: '/markdown-examples' },
-      { text: 'Catatan Lain', link: '/markdown-examples' }
+      { text: 'Instalasi', link: '/installation/' },
+      { text: 'Upgrade', link: '/upgrade/' },
+      { text: 'Operasional', link: '/operational/' },
+      { text: 'Catatan Lain', link: '/notes/' }
     ],
 
     sidebar: [
@@ -25,8 +25,7 @@ export default defineConfig({
       {
         text: 'Upgrade',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '"MySQL 8.0 Community Server" repository are already ', link: '/mysql-repository-already' },
         ]
       },
       {
@@ -39,8 +38,8 @@ export default defineConfig({
       {
         text: 'Catatan Lain',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'TM Bogor 5 Maret 2024', link: '/notes/rme-bogor-5-maret' },
+          { text: 'Link Penting', link: '/notes/link' }
         ]
       }
     ],
