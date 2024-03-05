@@ -160,3 +160,21 @@ npm-debug.log
 yarn-error.log
 
 # End of https://www.toptal.com/developers/gitignore/api/node,vue,vuejs
+
+/coverage
+/src/client/shared.ts
+/src/node/shared.ts
+*.log
+*.tgz
+.DS_Store
+.idea
+.temp
+.vite_opt_cache
+.vscode
+dist
+cache
+temp
+examples-temp
+node_modules
+pnpm-global
+TODOs.md
