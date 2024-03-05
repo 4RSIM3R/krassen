@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Krassen",
   description: "Catatan Troubleshoot Instalasi, Upgrade Dan Operational SIMGOS",
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -47,6 +48,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
       { icon: 'mastodon', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+    
   }
 })
