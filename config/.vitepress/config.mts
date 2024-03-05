@@ -19,21 +19,24 @@ export default defineConfig({
       {
         text: 'Instalasi',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Pendahuluan', link: '/markdown-examples' },
+          { text: 'Kebutuhan Hardware', link: '/api-examples' },
+          { text: 'Almalinux', link: '/api-examples' },
+          { text: 'Centos', link: '/api-examples' },
+          { text: 'Rocky Linux', link: '/api-examples' },
+          { text: 'Redhat Linux', link: '/api-examples' }
         ]
       },
       {
         text: 'Upgrade',
         items: [
-          { text: '"MySQL 8.0 Community Server" repository are already ', link: '/mysql-repository-already' },
+          { text: 'MySQL repository are already ', link: '/mysql-repository-already' },
         ]
       },
       {
         text: 'Operasional',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Error Cetak Report', link: '/markdown-examples' },
         ]
       },
       {
@@ -44,10 +47,8 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'mastodon', link: 'https://github.com/vuejs/vitepress' }
     ],
     
   }
