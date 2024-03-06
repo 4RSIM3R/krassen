@@ -18,29 +18,36 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Instalasi',
+        link: '/installation/',
         items: [
-          { text: 'Pendahuluan', link: '/markdown-examples' },
-          { text: 'Kebutuhan Hardware', link: '/api-examples' },
-          { text: 'Almalinux', link: '/api-examples' },
-          { text: 'Centos', link: '/api-examples' },
-          { text: 'Rocky Linux', link: '/api-examples' },
-          { text: 'Redhat Linux', link: '/api-examples' }
+          { text: 'Pendahuluan', link: '/installation/' },
+          { text: 'Kebutuhan Hardware', link: '/installation/' },
+          { text: 'Almalinux', link: '/installation/' },
+          { text: 'Centos', link: '/installation/' },
+          { text: 'Rocky Linux', link: '/installation/' },
+          { text: 'Redhat Linux', link: '/installation/' }
         ]
       },
       {
         text: 'Upgrade',
+        link: '/upgrade/',
         items: [
           { text: 'MySQL repository are already ', link: '/mysql-repository-already' },
         ]
       },
       {
         text: 'Operasional',
+        link: '/operational/',
         items: [
-          { text: 'Error Cetak Report', link: '/markdown-examples' },
+          { text: 'Reporting', link: '/operational/report' },
+          { text: 'Scaling PHP', link: '/operational/scaling-php' },
+          { text: 'Scaling MySql', link: '/operational/scaling-db' },
+          { text: 'Stock', link: '/operational/stock' },
         ]
       },
       {
         text: 'Catatan Lain',
+        link: '/notes/',
         items: [
           { text: 'TM Bogor 5 Maret 2024', link: '/notes/rme-bogor-5-maret' },
           { text: 'TM Bogor 6 Maret 2024', link: '/notes/rme-bogor-6-maret' },
@@ -51,6 +58,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
     ],
-    
+
   }
 })
