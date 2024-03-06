@@ -32,5 +32,3 @@ Catatan Dari Teknis Penyelenggaran RME, Bogor 5 Maret 2024
 - [PPT Satu Sehat](https://drive.google.com/file/d/1uPtJ1lp7Pv7U6RThgPo2x_AQAnxsvgUi/view?usp=drive_link)
 - [PPT Kebijakan Pemerintah Tentang Penyelenggaraan RME](https://drive.google.com/file/d/1uPtJ1lp7Pv7U6RThgPo2x_AQAnxsvgUi/view?usp=drive_link)
 - [Update RME dalam DFO](https://docs.google.com/presentation/d/1YGj-pyDGazBYUsSEmN95_tgS787MR1M1/edit?usp=drive_link&ouid=107374087602802760810&rtpof=true&sd=true)
-
-

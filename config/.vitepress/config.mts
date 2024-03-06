@@ -43,6 +43,7 @@ export default defineConfig({
         text: 'Catatan Lain',
         items: [
           { text: 'TM Bogor 5 Maret 2024', link: '/notes/rme-bogor-5-maret' },
+          { text: 'TM Bogor 6 Maret 2024', link: '/notes/rme-bogor-6-maret' },
           { text: 'Link Penting', link: '/notes/link' }
         ]
       }
