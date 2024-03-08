@@ -43,6 +43,7 @@ export default defineConfig({
           { text: 'Scaling PHP', link: '/operational/scaling-php' },
           { text: 'Scaling MySql', link: '/operational/scaling-db' },
           { text: 'Stock', link: '/operational/stock' },
+          { text: 'Report', link: '/operational/report' },
         ]
       },
       {
