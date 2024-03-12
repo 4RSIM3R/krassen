@@ -33,15 +33,16 @@ export default defineConfig({
         link: '/upgrade/',
         items: [
           { text: 'MySQL repository are already ', link: '/mysql-repository-already' },
+          { text: 'Error Report ', link: '/mysql-repository-already' },
         ]
       },
       {
         text: 'Operasional',
         link: '/operational/',
         items: [
-          { text: 'Reporting', link: '/operational/report' },
           { text: 'Scaling PHP', link: '/operational/scaling-php' },
           { text: 'Scaling MySql', link: '/operational/scaling-db' },
+          { text: 'Backup DB', link: '/operational/backup-db' },
           { text: 'Stock', link: '/operational/stock' },
           { text: 'Report', link: '/operational/report' },
         ]
