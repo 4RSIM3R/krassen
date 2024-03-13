@@ -1,6 +1,6 @@
 # Permasalah Umum Untuk Reporting
 
-Berikut adalah permasalahan / error yang sering terjadi ketika reporting :
+Berikut adalah permasalahan / error yang sering terjadi ketika reporting
 
 ## Unable to get value for result set field "KODE" of class java.lang.Integer
 

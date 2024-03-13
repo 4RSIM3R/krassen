@@ -20,12 +20,12 @@ export default defineConfig({
         text: 'Instalasi',
         link: '/installation/',
         items: [
-          { text: 'Pendahuluan', link: '/installation/' },
-          { text: 'Kebutuhan Hardware', link: '/installation/' },
-          { text: 'Almalinux', link: '/installation/' },
-          { text: 'Centos', link: '/installation/' },
-          { text: 'Rocky Linux', link: '/installation/' },
-          { text: 'Redhat Linux', link: '/installation/' }
+          { text: 'Pendahuluan', link: '/installation/pendahuluan' },
+          { text: 'Kebutuhan Hardware', link: '/installation/hardware' },
+          { text: 'Almalinux', link: '/installation/almalinux' },
+          { text: 'Centos', link: '/installation/centos' },
+          { text: 'Rocky Linux', link: '/installation/rocky' },
+          { text: 'Redhat Linux', link: '/installation/redhat' }
         ]
       },
       {
@@ -33,7 +33,6 @@ export default defineConfig({
         link: '/upgrade/',
         items: [
           { text: 'MySQL repository are already ', link: '/mysql-repository-already' },
-          { text: 'Error Report ', link: '/mysql-repository-already' },
         ]
       },
       {
@@ -45,6 +44,7 @@ export default defineConfig({
           { text: 'Backup DB', link: '/operational/backup-db' },
           { text: 'Stock', link: '/operational/stock' },
           { text: 'Report', link: '/operational/report' },
+          { text: 'Layanan', link: '/operational/layanan' },
         ]
       },
       {
